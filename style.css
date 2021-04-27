@@ -1,0 +1,13 @@
+body{
+    background-color: orange;
+}
+
+div p{
+    color:red;
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top:38vh;
+    margin-left: 42vw;
+    
+}
