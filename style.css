@@ -1,5 +1,6 @@
 body{
-    background-color: orange;
+    background-color: #ff1d25;
+    margin:0;
 }
 
 div p{
@@ -11,3 +12,68 @@ div p{
     margin-left: 42vw;
     
 }
+
+
+/* frontwall animation */
+.cls-1 {
+    fill:yellow;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode:both; */
+    animation-duration: 15s;
+}
+
+@keyframes example {
+    0%   {fill:yellow;}
+    25%  {fill:orange;}
+    50%  {fill:magenta;}
+    75%  {fill:orange;}
+    100% {fill:yellow;}
+  }
+
+
+/* ceiling animation */
+.cls-2 {
+    fill: purple;
+    animation-name: example2;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode:both; */
+    animation-duration: 15s;
+}
+
+@keyframes example2 {
+    0%   {fill:purple;}
+    50%  {fill:red;}
+    100% {fill:purple;}
+  }
+
+/* window animation */
+.cls-6 {
+    fill:black;
+    animation-name: example3;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode:both; */
+    animation-duration: 20s;
+}
+
+@keyframes example3 {
+    0%   {fill:blue;}
+    50%  {fill:black;}
+    100% {fill:blue;}
+  }
+
+
+/* sky in picture animation */
+.cls-7 {
+    fill:cyan;
+    animation-name: example4;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode:both; */
+    animation-duration: 15s;
+}
+
+@keyframes example4 {
+    0%   {fill:cyan;}
+    50% {fill:royalblue}
+    100% {fill:cyan;}
+  }
