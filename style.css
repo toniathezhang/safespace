@@ -43,7 +43,7 @@ div p{
 
 @keyframes example2 {
     0%   {fill:purple;}
-    50%  {fill:red;}
+    50%  {fill:pink;}
     100% {fill:purple;}
   }
 
@@ -76,4 +76,39 @@ div p{
     0%   {fill:cyan;}
     50% {fill:royalblue}
     100% {fill:cyan;}
+  }
+
+
+/* screen animation */
+.cls-8 {
+    fill: purple;
+    animation-name: example2;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode:both; */
+    animation-duration: 15s;
+    display: none;
+}
+
+
+/* pot animation */
+.cls-15 {
+    fill: cyan;
+    animation-name: example5;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode:both; */
+    animation-duration: 15s;
+}
+
+/* plant animation */
+.cls-9 {
+    fill: green;
+    animation-name: example5;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode:both; */
+    animation-duration: 15s;
+}
+@keyframes example5 {
+    0%   {fill:green;}
+    50%  {fill:cyan;}
+    100% {fill:green;}
   }
